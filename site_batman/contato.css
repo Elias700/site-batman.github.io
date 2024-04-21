@@ -1,0 +1,124 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://istoe.com.br/wp-content/uploads/2022/03/36.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: #000;
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+#logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+h1{
+    color: rgb(197, 15, 15);
+    display: flex;
+    align-items: center;
+    font-family: 'Kam Thmor Pro', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.contatos{
+  padding: 300px 0 0 700px;
+}
+
+#whatsapp{
+   cursor: pointer;
+   transition: 1s;
+}
+
+#instagram{
+    cursor: pointer;
+    transition: 1s;
+}
+
+#github{
+    cursor: pointer;
+    transition: 1s;
+}
+
+#linkedin{
+    cursor: pointer;
+    transition: 1s;
+}
+
+
+#whatsapp:hover{
+    transform: scale(1.09);
+}
+
+#instagram:hover{
+    transform: scale(1.09);
+}
+
+#github:hover{
+    transform: scale(1.09);
+}
+
+#linkedin:hover{
+    transform: scale(1.09);
+}
+
+.footer{
+    background-color: rgba(0, 0, 0, 0.799);
+    margin-top: 419px;
+}
+
+#paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: rgb(197, 15, 15);
+}
+
+@media (max-width: 768px){
+
+    body{
+        background-size: cover;
+    }
+
+    .contatos{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #whatsapp{
+        
+    }
+     
+     #instagram{
+         
+    }
+     
+     #github{
+         
+    }
+     
+     #linkedin{
+         
+    } 
+
+    .footer{
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,83 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('https://w0.peakpx.com/wallpaper/510/951/HD-wallpaper-batman-the-batman-dc-comics-the-batman-movie.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000;
+    align-items: center;
+}
+
+#logo{
+    width: 150px;
+    cursor: pointer;
+}
+
+#h1{
+    color: rgb(197, 15, 15);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+}
+
+
+input{
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+textarea{
+    padding:30px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+#rangeTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgb(197, 15, 15);
+    text-shadow: 4px 4px black;
+}
+
+#range{
+    margin-left: 190px;
+    padding: 10px;
+}
+
+button{
+    padding: 15px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-radius: 20px;
+    color: black;
+    cursor: pointer;
+    background-color: rgb(146, 23, 23);
+}
+
+button:hover{
+    background-color: #2f2e2e;
+    color: white;
+    transition: 0.5s;
+}

@@ -1,0 +1,118 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #808080; 
+}
+
+header{
+    background-color: #000;
+    
+}
+
+.cabeçalho1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo1{
+    width: 150px;
+    height: 90px;
+    cursor: pointer;
+}
+
+#title{
+    color: rgb(197, 15, 15);
+    display: flex;
+    align-items: center;
+    font-family: 'Kam Thmor Pro', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.fotos1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.fotos2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+img{
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+img:hover{
+    transform: scale(1.02);
+}
+
+
+/* Tablet */
+@media (max-width: 768px){
+
+    header{
+        width: 100%;
+    }
+
+    .fotos1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .fotos2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    img{
+        width: 400px;
+        height: 500px;
+    }
+
+}
+
+
+/* Smartfone */
+@media (max-width: 360px){
+
+    header{
+        width: 100%;
+    }
+
+    .fotos1{
+        gap: 20px;
+    }
+
+    .fotos2{
+        gap: 20px;
+    }
+
+    img{
+        width: 330px;
+        height: 410px; 
+    }
+
+    img:nth-child(1){
+        margin-top: 5px;
+    }
+
+
+}
